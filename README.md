@@ -1,8 +1,8 @@
 # Data Structures and Algorithms Refresh
 
 ## Data structures
-[x] Singly linked list.
+- [x] Singly linked list.
 
-[x] Doubly linked list.
+- [x] Doubly linked list.
 
-[ ] Binary search tree.
+- [ ] Binary search tree.
