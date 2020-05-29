@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Refresh
 
-## Data structures
+##  Basic data structures
 - [x] Singly linked list.
 
 - [x] Doubly linked list.
