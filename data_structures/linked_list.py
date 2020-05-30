@@ -51,6 +51,14 @@ class SinglyLinkedList:
         self._tail = slow
         self._tail._next = None
 
+    def search(self, value):
+        current = self._head
+        while current:
+            if current._value == value:
+                return current
+            current = current._next
+        return None
+
     def is_empty(self):
         return self._head is None
 
