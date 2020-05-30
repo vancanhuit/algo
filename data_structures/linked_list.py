@@ -43,13 +43,9 @@ class SinglyLinkedList:
     def remove_last(self):
         if self.is_empty():
             return
-        if self._head == self._tail:
-            self._head = None
-            self._tail = None
-            return
         slow = self._head
         fast = slow._next
-        while fast._next:
+        while fast and fast._next:
             slow = slow._next
             fast = fast._next
         self._tail = slow
