@@ -5,4 +5,6 @@
 
 - [x] Stack and queue.
 
+- [x] Heap (priority queue).
+
 - [ ] Binary search tree.
